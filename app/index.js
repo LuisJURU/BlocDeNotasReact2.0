@@ -24,4 +24,3 @@ app.get("/register",authorization.soloPublico,(req,res)=> res.sendFile(__dirname
 app.get("/admin",authorization.soloAdmin,(req,res)=> res.sendFile(__dirname + "/pages/admin/admin.html"));
 app.post("/api/login", autentication.login)
 app.post("/api/register", autentication.register)
-// app.post("/api/password", autentication.password)
