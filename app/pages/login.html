@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class = "form-container">
+            <h1>Iniciar Sesion</h1>
+            <p>Ingresa tus datos</p>
+            <form id="login-form">
+                <label for="user" class="sr-only">Usuario</label>
+                <input type="text" name="user" id="user" placeholder="Nombre de Usuario">
+
+                <label for="password" class="sr-only">Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Contraseña">
+
+                <button type="submit">Iniciar Session</button>
+                <p class="error escondido">Error al iniciar session</p>
+            </form>
+            <p>Todavia no tienes una cuenta? - <a href="/register">Registrate</a></p>
+            <p class="pass"><a href="/password">Olvido su Contraseña </a></p>
+        </div>
+    </main>
+
+</body>
+</html>
